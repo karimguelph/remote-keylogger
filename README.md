@@ -17,6 +17,7 @@ The project begins with key Python library imports. Each library serves a distin
 - **`smtplib`**: Handles email delivery to send the captured logs and system info to a remote email address.
 - **`threading`**: Runs multiple tasks like keylogging, data collection, and email sending simultaneously in separate threads.
 - **`socket`, `getpass`, and `uuid`**: Retrieve host information such as LAN IP, hostname, username, and MAC address.
+![Imports](C:\Users\karim\OneDrive\Desktop\cybersec-projects\remote-keylogger\images\imports.png)
 
 ---
 
