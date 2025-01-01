@@ -19,6 +19,7 @@ The project begins with key Python library imports. Each library serves a distin
 - **`socket`, `getpass`, and `uuid`**: Retrieve host information such as LAN IP, hostname, username, and MAC address.
 ![Imports](C:\Users\karim\OneDrive\Desktop\cybersec-projects\remote-keylogger\images\imports.png)
 
+![Imports code](C:\Users\karim\OneDrive\Desktop\cybersec-projects\remote-keylogger\images\imports.png)
 ---
 
 ### Setup
