@@ -25,8 +25,8 @@ The project begins with key Python library imports. Each library serves a distin
 ### Setup
 This part of the code handles the configuration of SMTP email services and logging. The program writes all captured information to a file disguised as `license_win64_details.txt`, blending in with standard Windows files. By using Gmail's SMTP service, the program can securely send all logs and system data to the designated email address.
 
-#### Image Placeholder:  
-*Include a screenshot of the "license_win64_details.txt" logging setup section.*
+
+![setup](https://github.com/user-attachments/assets/0e47d844-958a-4d1a-bee4-8d62c67329a4)
 
 ---
 
@@ -35,10 +35,8 @@ Before the keylogger starts, the program collects important system details:
 - **Host Information**: Captures hostname, LAN IP, SSID, MAC address, and system username.
 - **Wi-Fi Profiles**: Extracts saved Wi-Fi networks and their passwords from the system.
 
-This ensures a complete snapshot of the machine’s environment is emailed at the start of the program.
+![host_info_and_wifi_profiles](https://github.com/user-attachments/assets/654d0fc8-59f0-4f56-a33c-312a8bc2c0d0)
 
-#### Image Placeholder:  
-*Include a screenshot showing the functions collecting host information and Wi-Fi profiles.*
 
 ---
 
@@ -48,6 +46,7 @@ I also included advanced functionality to give a complete picture of system acti
 - **Running Processes**: Retrieves the list of currently running processes on the system using `tasklist`.
 - **Recently Accessed Files**: Collects file names from the Windows "Recent" folder.
 
+![advanced features](https://github.com/user-attachments/assets/a9bc61b5-ca7e-4291-b75d-0b2b83d4ca64)
 
 ---
 
@@ -57,9 +56,11 @@ At the core of the program is its main loop. Here’s how it works:
 2. **Emailing Logs**: Sends an email whenever the log file reaches 500 bytes.
 3. **Safety Mechanism**: The program stops running and displays a popup if the user presses the right `Ctrl` key.
 
+![logging system info](https://github.com/user-attachments/assets/41d62d70-e634-45e1-b587-87fdbe844557)
 
-#### Image Placeholder:  
-*Include a screenshot of the main loop code.*
+![keylogging logic](https://github.com/user-attachments/assets/ccd5c508-6a8c-49dd-92ba-84aafa5ae147)
+
+![main thread loop](https://github.com/user-attachments/assets/7a0dd73d-0a31-4692-b2f4-1e064edcb6fa)
 
 ---
 
@@ -73,10 +74,6 @@ pyinstaller --onefile --noconsole main.py
 
 The compiled file is placed in the `dist` directory.
 
-#### Image Placeholder:  
-*Include a screenshot showing the compiled executable in the `dist` folder.*
-
----
 
 ### Advanced Packaging with WinRAR
 To further disguise the executable, it can be packaged into an SFX archive using WinRAR:
@@ -86,10 +83,30 @@ To further disguise the executable, it can be packaged into an SFX archive using
 
 This technique ensures the program appears as an innocuous image file but runs the keylogger upon opening.
 
-#### Image Placeholder:  
-*Include screenshots of the WinRAR SFX configuration.*
+![pyinstaller](https://github.com/user-attachments/assets/bf493e65-99c8-419c-ab05-6346da152fc1)
 
----
+![pyinstaller completed](https://github.com/user-attachments/assets/36fed72b-d568-40c8-9de2-0d6dfe50e502)
 
-### Example Output
-Below are examples of the emails sent by the program:
+![archiving 1](https://github.com/user-attachments/assets/5b4327d0-e445-4bd9-a822-c0a42f869748)
+
+![archiving 2](https://github.com/user-attachments/assets/5793c27a-ed46-40ef-984e-9a4ac04a2c08)
+
+![archiving 3](https://github.com/user-attachments/assets/67324316-3fe3-4a3f-bed0-f39b265678ad)
+
+![archiving 4](https://github.com/user-attachments/assets/2606fb49-30aa-4dc9-bf0e-1113634c8485)
+
+
+### Demo
+Below is a demo of the output and the process:
+
+![demo 1](https://github.com/user-attachments/assets/837e2ad7-dd56-47b5-8824-4244579b55c3)
+
+![demo2](https://github.com/user-attachments/assets/93c76100-0415-4c9c-b49e-64b93ede0097)
+
+![demo3incomp](https://github.com/user-attachments/assets/a02dbd7f-29fa-440d-befe-f8e474985161)
+
+![demo4incomp](https://github.com/user-attachments/assets/ac35e3b9-e5e2-427d-8791-d0676dcbdcf0)
+
+![demo5incomp](https://github.com/user-attachments/assets/b16dc2b4-ee27-49c7-b313-e5d6ed572378)
+
+![demo6](https://github.com/user-attachments/assets/bd4859aa-7978-47d9-8c73-10cdcc58ffe3)
