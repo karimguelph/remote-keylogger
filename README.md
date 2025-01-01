@@ -3,6 +3,7 @@
 
 ### Project Goal
 The purpose of this project is to create a remote keylogger in Python that goes beyond simple keystroke capture. My goal is to build a tool that can gather system information, stealthily send it via email, and package it in a way that blends into the user environment. 
+
 ---
 
 ### Code Overview
