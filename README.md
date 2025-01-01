@@ -110,3 +110,7 @@ Below is a demo of the output and the process:
 ![demo5incomp](https://github.com/user-attachments/assets/b16dc2b4-ee27-49c7-b313-e5d6ed572378)
 
 ![demo6](https://github.com/user-attachments/assets/bd4859aa-7978-47d9-8c73-10cdcc58ffe3)
+
+### Flowchart
+
+![flowchart](https://github.com/user-attachments/assets/3607ebf8-0cc1-40d9-a309-8ce41a97efb7)
